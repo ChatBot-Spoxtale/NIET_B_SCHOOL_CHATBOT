@@ -1,0 +1,46 @@
+{
+    "page_type": "accreditations_page",
+    "source_url": "https://www.nietbschool.ac.in/accreditation",
+    "last_scraped": "2026-01-17T09:41:05.198864",
+    "content_hash": "d4548b5fc97a4314ea96f39eb522dd2cb05863219e7a5d374432e56ccd5e1c4e",
+    "data": {
+        "description": "NIET Business School is recognised and accredited by prominent national and international accreditation bodies. These accreditations reflect our commitment to quality education, academic excellence, and industry-aligned management programs. Our accreditations validate the high standards we maintain in curriculum design, faculty expertise, infrastructure, and student outcomes.",
+        "accreditations": [
+            {
+                "code": "AICTE",
+                "title": "AICTE Approved",
+                "description": "All India Council for Technical Education"
+            },
+            {
+                "code": "AIU",
+                "title": "AIU Recognised",
+                "description": "MBA Equivalent Recognition"
+            },
+            {
+                "code": "NBA",
+                "title": "NBA Accredited",
+                "description": "National Board of Accreditation"
+            },
+            {
+                "code": "AACSB",
+                "title": "AACSB",
+                "description": "Association to Advance Collegiate Schools of Business"
+            },
+            {
+                "code": "ISO",
+                "title": "ISO Certified",
+                "description": "Quality Management System"
+            },
+            {
+                "code": "AIMA",
+                "title": "AIMA",
+                "description": "All India Management Association"
+            },
+            {
+                "code": "NHRD",
+                "title": "NHRD",
+                "description": "National HRD Network"
+            }
+        ]
+    }
+}

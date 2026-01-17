@@ -1,0 +1,34 @@
+{
+    "page_type": "program_objectives",
+    "source_url": "https://www.nietbschool.ac.in/program#objectives",
+    "last_scraped": "2026-01-17T10:53:22.659225",
+    "content_hash": "7b0f6ea830a0c4a709251228af5e31f4dc395d4f4d166a7584ec01aa90774977",
+    "data": {
+        "objectives": [
+            {
+                "title": "Develop Business Leaders",
+                "description": "Build strong analytical, decision-making, and leadership skills through rigorous academic training and practical exposure."
+            },
+            {
+                "title": "Industry Readiness",
+                "description": "Preparing students for immediate employment in multiple sectors through industry-aligned curriculum and internships."
+            },
+            {
+                "title": "Ethical Leadership",
+                "description": "Instilling values, responsibility, and professional integrity to create socially responsible business leaders."
+            },
+            {
+                "title": "Strategic Thinking",
+                "description": "Develop ability to analyze complex business situations and formulate effective strategic solutions."
+            },
+            {
+                "title": "Team Collaboration",
+                "description": "Enhance interpersonal skills and ability to work effectively in diverse teams and cross-functional environments."
+            },
+            {
+                "title": "Innovation & Entrepreneurship",
+                "description": "Foster entrepreneurial mindset and innovation capabilities to drive business growth and create value."
+            }
+        ]
+    }
+}

@@ -46,7 +46,8 @@ def extract_key_features(soup):
 
     return features
 
-#MAIN SCRAPER
+# MAIN SCRAPER
+
 def scrape_key_features():
     response = requests.get(URL, timeout=20)
     response.raise_for_status()

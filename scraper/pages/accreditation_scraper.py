@@ -28,6 +28,7 @@ def extract_accreditations(soup: BeautifulSoup):
 
     description_p = acc_section.find("p")
     description = description_p.get_text(strip=True) if description_p else ""
+
     cards = acc_section.find_all("div", class_=lambda c: c and "rounded-2xl" in c)
 
     for card in cards:
@@ -82,6 +83,6 @@ def scrape_accreditation_page():
         json.dump(result, f, indent=4, ensure_ascii=False)
 
     print("Accreditations page scraped successfully → accreditation_page.json")
-    
+
 if __name__ == "__main__":
     scrape_accreditation_page()

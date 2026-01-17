@@ -1,0 +1,133 @@
+{
+    "page_type": "all_about_programs",
+    "last_updated": "2026-01-17T11:14:39.830266",
+    "sources": {
+        "program_overview": {
+            "source_url": "https://www.nietbschool.ac.in/program",
+            "content_hash": "e01764e07edd08832c374009be99b76678222ab68681c93351485762fc96ca50"
+        },
+        "key_features": {
+            "source_url": "https://www.nietbschool.ac.in/program#features",
+            "content_hash": "9b7f0633b74fed3d33a97ab1d7fe3c69c9df02bb23463290db57bab8f8540d33"
+        },
+        "fee_structure": {
+            "source_url": "https://www.nietbschool.ac.in/program#fee-structure",
+            "content_hash": "8ded69b23499327589e67deadd3a615f267c9c3d65af1608611528b970b9c1e6"
+        },
+        "program_objectives": {
+            "source_url": "https://www.nietbschool.ac.in/program#objectives",
+            "content_hash": "7b0f6ea830a0c4a709251228af5e31f4dc395d4f4d166a7584ec01aa90774977"
+        }
+    },
+    "data": {
+        "program_overview": {
+            "program_name": "PGDM",
+            "program_highlights": [
+                "Industry-Focused Curriculum",
+                "Expert Faculty",
+                "Global Exposure",
+                "Leadership Development",
+                "Holistic Growth"
+            ],
+            "about_program": "NIET Business School's Post Graduate Diploma in Management (PGDM) is a two-year, full-time program designed to develop future-ready, socially responsible, and industry-aligned business leaders. The curriculum blends strong academic foundations with contemporary skills, hands-on learning, and immersive industry engagement ensuring students are prepared to excel in dynamic global business environments. The program is part of NIET's larger academic ecosystem, which supports over 20,000 learners across technology, management, and innovation disciplines. With a deep focus on digital fluency, leadership excellence, and experiential learning, the PGDM program empowers students to build a growth mindset and thrive in modern organisations. Students are exposed to case-based learning, live consulting projects, corporate mentorship, innovation labs, and paid internships, enabling them to gain the right mix of strategic thinking and real-world problem-solving. The program places equal emphasis on core managerial competencies and emerging areas such as Gen AI, data-driven decision-making, business analytics, digital marketing, supply chain technologies, and entrepreneurial thinking. Backed by strong corporate partnerships, global exposure opportunities, and a dedicated Technology Business Incubator, the PGDM program creates a learning environment where students can innovate, collaborate, and lead confidently. Overall, the course aims to shape professionals who demonstrate clarity in decision-making, ethical leadership, adaptability, analytical strength, and the ability to contribute meaningfully to organisations and society."
+        },
+        "key_features": {
+            "key_features": [
+                {
+                    "title": "Industry-Relevant Curriculum",
+                    "description": "Regularly updated curriculum aligned with current industry trends, emerging technologies, and business practices to ensure you're industry-ready."
+                },
+                {
+                    "title": "Experienced Faculty",
+                    "description": "Learn from seasoned academicians, industry professionals, and corporate experts who bring real-world insights to the classroom."
+                },
+                {
+                    "title": "Live Industry Projects",
+                    "description": "Work on real-world business challenges through live consulting projects with leading companies across various sectors."
+                },
+                {
+                    "title": "Global Exposure",
+                    "description": "International study tours, exchange programs, and global immersion opportunities to broaden your perspective."
+                },
+                {
+                    "title": "Summer Internships",
+                    "description": "Paid internships in top-tier companies providing hands-on experience and industry connections."
+                },
+                {
+                    "title": "Placement Support",
+                    "description": "Dedicated placement cell with 95%+ placement rate, connecting you with leading recruiters across industries."
+                },
+                {
+                    "title": "Technology Integration",
+                    "description": "Access to advanced labs, AI tools, business analytics platforms, and digital learning resources."
+                },
+                {
+                    "title": "Leadership Development",
+                    "description": "Structured leadership programs, mentorship opportunities, and soft skills training for holistic growth."
+                },
+                {
+                    "title": "Innovation Labs",
+                    "description": "State-of-the-art innovation labs and centres of excellence in collaboration with industry partners."
+                }
+            ]
+        },
+        "fee_structure": {
+            "description": "Our transparent and structured fee payment system is designed to make quality management education accessible. The fee structure is divided into convenient installments to ease the financial planning for students and their families.",
+            "fee_structure": {
+                "title": "PGDM Fee Structure 2026-28",
+                "columns": [
+                    "Registration",
+                    "First Installment",
+                    "Second Installment",
+                    "Third Installment",
+                    "Fourth Installment",
+                    "Total"
+                ],
+                "amounts": [
+                    "₹50,000/-",
+                    "₹2,15,800/-",
+                    "₹1,77,000/-",
+                    "₹1,18,200/-",
+                    "₹1,77,000/-",
+                    "₹7.38 Lacs"
+                ],
+                "payment_schedule": [
+                    "At time of Acceptance",
+                    "Batch Commencement Day",
+                    "Latest by 15 Nov, 2026",
+                    "Latest by 15 Apr, 2027",
+                    "Latest by 15 Sep, 2027",
+                    ""
+                ]
+            }
+        },
+        "program_objectives": {
+            "objectives": [
+                {
+                    "title": "Develop Business Leaders",
+                    "description": "Build strong analytical, decision-making, and leadership skills through rigorous academic training and practical exposure."
+                },
+                {
+                    "title": "Industry Readiness",
+                    "description": "Preparing students for immediate employment in multiple sectors through industry-aligned curriculum and internships."
+                },
+                {
+                    "title": "Ethical Leadership",
+                    "description": "Instilling values, responsibility, and professional integrity to create socially responsible business leaders."
+                },
+                {
+                    "title": "Strategic Thinking",
+                    "description": "Develop ability to analyze complex business situations and formulate effective strategic solutions."
+                },
+                {
+                    "title": "Team Collaboration",
+                    "description": "Enhance interpersonal skills and ability to work effectively in diverse teams and cross-functional environments."
+                },
+                {
+                    "title": "Innovation & Entrepreneurship",
+                    "description": "Foster entrepreneurial mindset and innovation capabilities to drive business growth and create value."
+                }
+            ]
+        }
+    }
+}

@@ -38,7 +38,6 @@ def extract_peos(soup: BeautifulSoup):
 
         text = p.get_text(" ", strip=True)
 
-        # Remove repeated "PEO1:" from description
         text = re.sub(r"^PEO\d+:\s*", "", text)
 
         if code and text:
@@ -60,6 +59,7 @@ def scrape_peos_page():
         tag.decompose()
 
     peos = extract_peos(soup)
+
     combined_text = normalize(" ".join(p["description"] for p in peos))
     content_hash = sha256_hash(combined_text)
 

@@ -1,0 +1,26 @@
+{
+    "page_type": "program_educational_objectives",
+    "source_url": "https://www.nietbschool.ac.in/peos",
+    "last_scraped": "2026-01-17T09:19:58.254434",
+    "content_hash": "f2514dd9f86f26c28ea2bba572b7d19cc93bd1a0210858c7a3c286ead33ef00f",
+    "data": {
+        "peos": [
+            {
+                "code": "PEO1",
+                "description": "Graduates will be inculcated with academic excellence to apply management theories & practices in a dynamic business environment for the achievement of organizational goals."
+            },
+            {
+                "code": "PEO2",
+                "description": "Graduates will develop entrepreneurial and innovative mindsets with analytical and critical thinking abilities to solve complex business problems."
+            },
+            {
+                "code": "PEO3",
+                "description": "Graduates will be developed as highly skilled Industry-ready, socially responsible, and value-based leaders to take creative and innovative decisions."
+            },
+            {
+                "code": "PEO4",
+                "description": "Graduates will apply economic, legal, and ethical aspects of business to take decisions in a globally competitive environment."
+            }
+        ]
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "page_type": "program_fee_structure",
+    "source_url": "https://www.nietbschool.ac.in/program#fee-structure",
+    "last_scraped": "2026-01-17T11:02:10.154348",
+    "content_hash": "8ded69b23499327589e67deadd3a615f267c9c3d65af1608611528b970b9c1e6",
+    "data": {
+        "description": "Our transparent and structured fee payment system is designed to make quality management education accessible. The fee structure is divided into convenient installments to ease the financial planning for students and their families.",
+        "fee_structure": {
+            "title": "PGDM Fee Structure 2026-28",
+            "columns": [
+                "Registration",
+                "First Installment",
+                "Second Installment",
+                "Third Installment",
+                "Fourth Installment",
+                "Total"
+            ],
+            "amounts": [
+                "₹50,000/-",
+                "₹2,15,800/-",
+                "₹1,77,000/-",
+                "₹1,18,200/-",
+                "₹1,77,000/-",
+                "₹7.38 Lacs"
+            ],
+            "payment_schedule": [
+                "At time of Acceptance",
+                "Batch Commencement Day",
+                "Latest by 15 Nov, 2026",
+                "Latest by 15 Apr, 2027",
+                "Latest by 15 Sep, 2027",
+                ""
+            ]
+        }
+    }
+}

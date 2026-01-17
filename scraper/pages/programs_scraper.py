@@ -23,7 +23,6 @@ def sha256_hash(text: str) -> str:
     return hashlib.sha256(text.encode("utf-8")).hexdigest()
 
 def extract_program_highlights(soup):
-
     highlights = [
         "Industry-Focused Curriculum",
         "Expert Faculty",

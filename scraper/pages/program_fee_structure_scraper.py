@@ -61,7 +61,7 @@ def extract_fee_structure(soup):
         }
     }
 
-# MAIN SCRAPER
+#MAIN SCRAPER
 def scrape_fee_structure():
     response = requests.get(URL, timeout=20)
     response.raise_for_status()

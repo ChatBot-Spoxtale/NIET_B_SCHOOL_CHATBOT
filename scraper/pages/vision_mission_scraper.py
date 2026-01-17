@@ -30,7 +30,7 @@ def extract_vision_and_mission(soup: BeautifulSoup):
 
     if vision_heading:
         vision_card = vision_heading
-        for _ in range(5):
+        for _ in range(5):  
             vision_card = vision_card.parent
             if vision_card.name == "div":
                 p = vision_card.find("p")
@@ -69,6 +69,7 @@ def scrape_vision_mission_page():
         tag.decompose()
 
     vision, mission = extract_vision_and_mission(soup)
+
     combined_text = normalize(vision + " ".join(mission))
     content_hash = sha256_hash(combined_text)
 

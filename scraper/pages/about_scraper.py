@@ -21,10 +21,6 @@ def sha256_hash(text: str) -> str:
     return hashlib.sha256(text.encode("utf-8")).hexdigest()
 
 def extract_overview(soup: BeautifulSoup) -> str:
-    """
-    Extracts ONLY the college overview content
-    from <section id="overview">.
-    """
 
     overview_section = soup.find("section", id="overview")
     if not overview_section:
@@ -51,6 +47,7 @@ def scrape_about_page():
         tag.decompose()
 
     college_overview = extract_overview(soup)
+
     content_hash = sha256_hash(normalize(college_overview))
 
     result = {

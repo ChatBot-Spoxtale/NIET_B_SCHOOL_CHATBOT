@@ -1,0 +1,46 @@
+{
+    "page_type": "program_key_features",
+    "source_url": "https://www.nietbschool.ac.in/program#features",
+    "last_scraped": "2026-01-17T10:44:58.676577",
+    "content_hash": "9b7f0633b74fed3d33a97ab1d7fe3c69c9df02bb23463290db57bab8f8540d33",
+    "data": {
+        "key_features": [
+            {
+                "title": "Industry-Relevant Curriculum",
+                "description": "Regularly updated curriculum aligned with current industry trends, emerging technologies, and business practices to ensure you're industry-ready."
+            },
+            {
+                "title": "Experienced Faculty",
+                "description": "Learn from seasoned academicians, industry professionals, and corporate experts who bring real-world insights to the classroom."
+            },
+            {
+                "title": "Live Industry Projects",
+                "description": "Work on real-world business challenges through live consulting projects with leading companies across various sectors."
+            },
+            {
+                "title": "Global Exposure",
+                "description": "International study tours, exchange programs, and global immersion opportunities to broaden your perspective."
+            },
+            {
+                "title": "Summer Internships",
+                "description": "Paid internships in top-tier companies providing hands-on experience and industry connections."
+            },
+            {
+                "title": "Placement Support",
+                "description": "Dedicated placement cell with 95%+ placement rate, connecting you with leading recruiters across industries."
+            },
+            {
+                "title": "Technology Integration",
+                "description": "Access to advanced labs, AI tools, business analytics platforms, and digital learning resources."
+            },
+            {
+                "title": "Leadership Development",
+                "description": "Structured leadership programs, mentorship opportunities, and soft skills training for holistic growth."
+            },
+            {
+                "title": "Innovation Labs",
+                "description": "State-of-the-art innovation labs and centres of excellence in collaboration with industry partners."
+            }
+        ]
+    }
+}

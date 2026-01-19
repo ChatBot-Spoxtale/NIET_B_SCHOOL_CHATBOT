@@ -1,0 +1,56 @@
+{
+    "page_type": "clubs_overview_page",
+    "source_url": "https://www.nietbschool.ac.in/clubs-societies",
+    "last_scraped": "2026-01-19T08:35:19.655078",
+    "overview": {
+        "title": "Learning by Doing: Clubs & Societies",
+        "description": "Functional clubs across Marketing, Finance, Analytics, HR, International Business,\n                            Entrepreneurship, CSR, Culture, Sports, Communication, and Research allow students to\n                            experiment, lead initiatives, and apply classroom concepts to real-world scenarios."
+    },
+    "clubs": [
+        {
+            "name": "• Prati Dhwani",
+            "domain": "Marketing"
+        },
+        {
+            "name": "• Vitt Arth",
+            "domain": "Finance"
+        },
+        {
+            "name": "• Pravah",
+            "domain": "Supply Chain & Logistics"
+        },
+        {
+            "name": "• Anveshak",
+            "domain": "Business Analytics"
+        },
+        {
+            "name": "• Vistaar",
+            "domain": "International Business"
+        },
+        {
+            "name": "• Udyam",
+            "domain": "Startup & Entrepreneurship"
+        },
+        {
+            "name": "• Karmik",
+            "domain": "HR & OB"
+        },
+        {
+            "name": "• Swavlamban",
+            "domain": "CSR"
+        },
+        {
+            "name": "• Adhvan",
+            "domain": "Cultural Club"
+        },
+        {
+            "name": "• Tejas",
+            "domain": "Sports"
+        },
+        {
+            "name": "• Varnam",
+            "domain": "Communication"
+        }
+    ],
+    "content_hash": "604f19327d9e42b1541c12d1b2df836593c762b9772266a7fbcfa5da3371f40f"
+}

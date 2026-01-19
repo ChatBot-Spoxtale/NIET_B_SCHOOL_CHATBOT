@@ -1,0 +1,161 @@
+{
+    "page_type": "all_clubs",
+    "last_merged": "2026-01-19T11:59:27.475052",
+    "clubs": [
+        {
+            "page_type": "clubs_overview_page",
+            "source_url": "https://www.nietbschool.ac.in/clubs-societies",
+            "overview": {
+                "title": "Learning by Doing: Clubs & Societies",
+                "description": "Functional clubs across Marketing, Finance, Analytics, HR, International Business,\n                            Entrepreneurship, CSR, Culture, Sports, Communication, and Research allow students to\n                            experiment, lead initiatives, and apply classroom concepts to real-world scenarios."
+            },
+            "clubs": [
+                {
+                    "name": "• Prati Dhwani",
+                    "domain": "Marketing"
+                },
+                {
+                    "name": "• Vitt Arth",
+                    "domain": "Finance"
+                },
+                {
+                    "name": "• Pravah",
+                    "domain": "Supply Chain & Logistics"
+                },
+                {
+                    "name": "• Anveshak",
+                    "domain": "Business Analytics"
+                },
+                {
+                    "name": "• Vistaar",
+                    "domain": "International Business"
+                },
+                {
+                    "name": "• Udyam",
+                    "domain": "Startup & Entrepreneurship"
+                },
+                {
+                    "name": "• Karmik",
+                    "domain": "HR & OB"
+                },
+                {
+                    "name": "• Swavlamban",
+                    "domain": "CSR"
+                },
+                {
+                    "name": "• Adhvan",
+                    "domain": "Cultural Club"
+                },
+                {
+                    "name": "• Tejas",
+                    "domain": "Sports"
+                },
+                {
+                    "name": "• Varnam",
+                    "domain": "Communication"
+                }
+            ],
+            "content_hash": "604f19327d9e42b1541c12d1b2df836593c762b9772266a7fbcfa5da3371f40f"
+        },
+        {
+            "page_type": "club_detail_page",
+            "club_name": "Prati Dhwani",
+            "domain": "Marketing Club",
+            "image_url": "https://www.nietbschool.ac.in/assets/images/clubs/Prati%20Dhwani.jpg",
+            "description": "Prati Dhwani focuses on marketing excellence through case competitions, brand management\n                                workshops, and industry interactions. Members gain insights into digital marketing, consumer\n                                behavior, and strategic brand positioning.\n\nThe club organizes regular events including marketing case studies, guest lectures from industry\n                                leaders, brand management workshops, and digital marketing sessions. Members get hands-on\n                                experience in creating marketing campaigns, analyzing consumer behavior, and understanding\n                                market dynamics.\n\nThrough active participation in Prati Dhwani, students develop critical thinking skills, learn\n                                to work in teams, and build a strong foundation in marketing principles that prepare them for\n                                successful careers in the marketing domain.",
+            "source_url": "https://www.nietbschool.ac.in/prati-dhwani",
+            "content_hash": "6713e45549b51988ee255369409c2b9e6898464f71399fed5273e2d5a5442f35"
+        },
+        {
+            "page_type": "club_detail_page",
+            "club_name": "Vitt Arth",
+            "domain": "Finance Club",
+            "image_url": "https://www.nietbschool.ac.in/assets/images/clubs/Vitt%20Arth.jpg",
+            "description": "Vitt Arth provides a platform for finance enthusiasts to explore investment strategies,\n                                financial modeling, and market analysis. The club organizes trading simulations, guest\n                                lectures from finance professionals, and financial literacy programs.\n\nMembers participate in stock market simulations, learn about portfolio management, understand\n                                financial markets, and gain insights into corporate finance. The club also conducts workshops\n                                on financial modeling, valuation techniques, and risk management.\n\nThrough Vitt Arth, students develop analytical skills, learn to interpret financial statements,\n                                and understand the complexities of financial markets, preparing them for careers in banking,\n                                investment management, and corporate finance.",
+            "source_url": "https://www.nietbschool.ac.in/vitt-arth",
+            "content_hash": "e20155ae6e1e41301ebfed63c921d7fb6510532c7fade93fecc74f08eb005494"
+        },
+        {
+            "page_type": "club_detail_page",
+            "club_name": "Pravah",
+            "domain": "Supply Chain & Logistics Club",
+            "image_url": "https://www.nietbschool.ac.in/assets/images/clubs/Pravah.jpg",
+            "description": "Pravah focuses on supply chain optimization, logistics management, and operations\n                                excellence. Members engage in supply chain simulations, industry visits, and workshops\n                                on modern logistics technologies.\n\nThe club organizes activities including supply chain case studies, warehouse management\n                                simulations, logistics planning exercises, and interactions with supply chain professionals.\n                                Members learn about inventory management, distribution networks, and supply chain analytics.\n\nThrough Pravah, students gain practical knowledge of supply chain operations, understand\n                                the importance of efficient logistics, and develop skills that are essential for careers in\n                                operations, supply chain management, and logistics.",
+            "source_url": "https://www.nietbschool.ac.in/pravah",
+            "content_hash": "8073d40b48795bd2d62746ed520bbfaf4d74f249f3e9dbee764517778ced22d3"
+        },
+        {
+            "page_type": "club_detail_page",
+            "club_name": "Anveshak",
+            "domain": "Business Analytics Club",
+            "image_url": "https://www.nietbschool.ac.in/assets/images/clubs/Anveshak.jpg",
+            "description": "Anveshak promotes data-driven decision making through analytics workshops, data science\n                                competitions, and hands-on projects. Members learn to use tools like Python, R, Tableau,\n                                and Power BI for business insights.\n\nThe club conducts workshops on statistical analysis, machine learning applications in business,\n                                data visualization, and predictive modeling. Members work on real-world data analytics projects\n                                and participate in hackathons and data science competitions.\n\nThrough Anveshak, students develop strong analytical capabilities, learn to extract meaningful\n                                insights from data, and gain proficiency in analytics tools that are increasingly important in\n                                modern business decision-making.",
+            "source_url": "https://www.nietbschool.ac.in/anveshak",
+            "content_hash": "edfa8e4aacb25b645951c74a887e2981543773e3c023211d703e9b7527414c0d"
+        },
+        {
+            "page_type": "club_detail_page",
+            "club_name": "Vistaar",
+            "domain": "International Business Club",
+            "image_url": "https://www.nietbschool.ac.in/assets/images/clubs/Vistaar.jpg",
+            "description": "Vistaar explores global business dynamics, international trade, and cross-cultural\n                                management. The club organizes global case studies, international business simulations,\n                                and interactions with global business leaders.\n\nMembers participate in activities including international trade simulations, cross-cultural\n                                communication workshops, global market analysis, and discussions on international business\n                                strategies. The club also facilitates interactions with international students and professionals.\n\nThrough Vistaar, students develop a global perspective, understand international business\n                                practices, and gain insights into managing businesses across different cultures and markets,\n                                preparing them for careers in multinational corporations and global business.",
+            "source_url": "https://www.nietbschool.ac.in/vistaar",
+            "content_hash": "a11265e2306eac54da5002e84609d9e7d8f13be2b66b3a9eb35fd7592119a388"
+        },
+        {
+            "page_type": "club_detail_page",
+            "club_name": "Udyam",
+            "domain": "Startup & Entrepreneurship Club",
+            "image_url": "https://www.nietbschool.ac.in/assets/images/clubs/Udyam.jpg",
+            "description": "Udyam fosters entrepreneurial spirit through startup workshops, pitch competitions,\n                                mentorship programs, and incubation support. Members learn to develop business plans,\n                                validate ideas, and build entrepreneurial networks.\n\nThe club organizes activities including startup pitch sessions, business plan competitions,\n                                mentorship programs with successful entrepreneurs, and workshops on fundraising, marketing for\n                                startups, and legal aspects of entrepreneurship. Members also get opportunities to connect with\n                                investors and incubators.\n\nThrough Udyam, students develop an entrepreneurial mindset, learn to identify business\n                                opportunities, and gain practical knowledge about starting and running a business. The club\n                                provides a platform for aspiring entrepreneurs to turn their ideas into reality.",
+            "source_url": "https://www.nietbschool.ac.in/udyam",
+            "content_hash": "5c0b23ad20f745106b82884aa7afc7cb73885ff7d3cd6189181cbee557c8b8f6"
+        },
+        {
+            "page_type": "club_detail_page",
+            "club_name": "Karmik",
+            "domain": "HR & OB Club",
+            "image_url": "https://www.nietbschool.ac.in/assets/images/clubs/Karmik.jpg",
+            "description": "Karmik focuses on human resources and organizational behavior excellence through workshops,\n                                case studies, and industry interactions. Members gain insights into talent management,\n                                organizational development, and employee relations.\n\nThe club organizes regular events including HR case studies, guest lectures from industry\n                                leaders, talent management workshops, and organizational behavior sessions. Members get\n                                hands-on experience in recruitment processes, performance management, and understanding\n                                workplace dynamics.\n\nThrough active participation in Karmik, students develop leadership skills, learn to manage\n                                people effectively, and build a strong foundation in HR principles that prepare them for\n                                successful careers in human resources and organizational development.",
+            "source_url": "https://www.nietbschool.ac.in/karmik",
+            "content_hash": "73b87ba23e9417fb906571aa1a53c8c9a04b69784a0b7a5dd315ff46a20cabff"
+        },
+        {
+            "page_type": "club_detail_page",
+            "club_name": "Swavlamban",
+            "domain": "CSR Club",
+            "image_url": "https://www.nietbschool.ac.in/assets/images/clubs/Swavlamban.jpg",
+            "description": "Swavlamban focuses on corporate social responsibility and sustainable business practices\n                                through community engagement, social initiatives, and awareness programs. Members gain\n                                insights into ethical business practices, social impact, and sustainable development.\n\nThe club organizes regular events including CSR workshops, community service projects,\n                                guest lectures from social entrepreneurs, and sustainability sessions. Members get\n                                hands-on experience in planning and executing social initiatives, understanding community\n                                needs, and creating positive social impact.\n\nThrough active participation in Swavlamban, students develop empathy, social awareness,\n                                and a sense of responsibility towards society, preparing them to be socially responsible\n                                leaders who can create meaningful change in their communities.",
+            "source_url": "https://www.nietbschool.ac.in/swavlamban",
+            "content_hash": "7705c0581435bb2e6d5ff36b6c266634659083c39fe822998a16ca5639983f47"
+        },
+        {
+            "page_type": "club_detail_page",
+            "club_name": "Adhvan",
+            "domain": "Cultural Club",
+            "image_url": "https://www.nietbschool.ac.in/assets/images/clubs/Adhvan.jpg",
+            "description": "Adhvan celebrates cultural diversity and artistic expression through various cultural\n                                events, performances, and festivals. Members gain opportunities to showcase their talents,\n                                explore different cultures, and participate in creative activities.\n\nThe club organizes regular events including cultural festivals, dance performances,\n                                music concerts, drama competitions, and art exhibitions. Members get hands-on experience\n                                in event management, performance arts, and cultural coordination.\n\nThrough active participation in Adhvan, students develop creativity, cultural awareness,\n                                and teamwork skills, while fostering a vibrant campus culture that celebrates diversity\n                                and artistic expression.",
+            "source_url": "https://www.nietbschool.ac.in/adhvan",
+            "content_hash": "b7dd747e2ebfb97314f2afe548a216da8428ff8a0da7faf1243b1c938e9e24dd"
+        },
+        {
+            "page_type": "club_detail_page",
+            "club_name": "Tejas",
+            "domain": "Sports Club",
+            "image_url": "https://www.nietbschool.ac.in/assets/images/clubs/Tejas.jpg",
+            "description": "Tejas promotes sports excellence and physical fitness through various sporting activities,\n                                competitions, and wellness programs. Members gain opportunities to participate in inter-college\n                                tournaments, develop athletic skills, and maintain a healthy lifestyle.\nThe club organizes regular events including sports tournaments, fitness workshops, coaching\n                                sessions, and inter-college competitions. Members get hands-on experience in organizing sports\n                                events, team management, and athletic training.\nThrough active participation in Tejas, students develop physical fitness, teamwork, discipline,\n                                and sportsmanship, fostering a culture of health and wellness on campus while building\n                                leadership skills through sports.",
+            "source_url": "https://www.nietbschool.ac.in/tejas",
+            "content_hash": "940516b1b491ea8a7e1d3c836e09fceefd0670ad89237459ba79a20b432024d0"
+        },
+        {
+            "page_type": "club_detail_page",
+            "club_name": "Varnam",
+            "domain": "Communication Club",
+            "image_url": "https://www.nietbschool.ac.in/assets/images/clubs/Varnam.jpg",
+            "description": "Varnam focuses on enhancing communication skills and public speaking abilities through\n                                workshops, debates, presentations, and interactive sessions. Members gain confidence in\n                                expressing ideas, presenting effectively, and engaging in professional communication.\nThe club organizes regular events including debate competitions, public speaking workshops,\n                                presentation skills sessions, and communication challenges. Members get hands-on experience\n                                in articulating thoughts, handling Q&A sessions, and mastering various communication formats.\nThrough active participation in Varnam, students develop strong communication skills, confidence,\n                                and the ability to express ideas clearly and persuasively, preparing them for successful\n                                professional interactions and leadership roles.",
+            "source_url": "https://www.nietbschool.ac.in/varnam",
+            "content_hash": "3ec31310707a0196bed0a4620b3ce902de944ffd7d8b28796f8079e2eeaa014a"
+        }
+    ],
+    "content_hash": "4a29244894496857e4da0b61fb76641d15fedb6f512ade3c16664862db216a8e"
+}

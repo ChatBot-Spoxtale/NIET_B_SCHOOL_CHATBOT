@@ -1,0 +1,10 @@
+{
+    "page_type": "club_detail_page",
+    "club_name": "Anveshak",
+    "domain": "Business Analytics Club",
+    "image_url": "https://www.nietbschool.ac.in/assets/images/clubs/Anveshak.jpg",
+    "description": "Anveshak promotes data-driven decision making through analytics workshops, data science\n                                competitions, and hands-on projects. Members learn to use tools like Python, R, Tableau,\n                                and Power BI for business insights.\n\nThe club conducts workshops on statistical analysis, machine learning applications in business,\n                                data visualization, and predictive modeling. Members work on real-world data analytics projects\n                                and participate in hackathons and data science competitions.\n\nThrough Anveshak, students develop strong analytical capabilities, learn to extract meaningful\n                                insights from data, and gain proficiency in analytics tools that are increasingly important in\n                                modern business decision-making.",
+    "source_url": "https://www.nietbschool.ac.in/anveshak",
+    "last_scraped": "2026-01-19T08:49:51.657958",
+    "content_hash": "edfa8e4aacb25b645951c74a887e2981543773e3c023211d703e9b7527414c0d"
+}

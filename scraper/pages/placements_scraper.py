@@ -2,6 +2,7 @@ import os
 import json
 import hashlib
 from datetime import datetime
+from pathlib import Path
 from urllib.parse import urljoin
 
 import requests
@@ -9,7 +10,12 @@ from bs4 import BeautifulSoup
 
 
 URL = "https://www.nietbschool.ac.in/placement"
-OUTPUT_FILE = "../output/placements_page.json"
+
+BASE_DIR = Path(__file__).resolve().parents[1]
+OUTPUT_DIR = BASE_DIR / "output"
+OUTPUT_DIR.mkdir(exist_ok=True)
+
+OUTPUT_FILE = OUTPUT_DIR / "placements_page.json"
 HEADERS = {
     "User-Agent": "Mozilla/5.0"
 }

@@ -1,3 +1,4 @@
+from pathlib import Path
 import requests
 import hashlib
 import json
@@ -7,9 +8,12 @@ from bs4 import BeautifulSoup
 from datetime import datetime
 
 URL = "https://www.nietbschool.ac.in/program#fee-structure"
-OUTPUT_FILE = "../output/program_fee_structure.json"
 
-os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)
+BASE_DIR = Path(__file__).resolve().parents[1]
+OUTPUT_DIR = BASE_DIR / "output"
+OUTPUT_DIR.mkdir(exist_ok=True)
+
+OUTPUT_FILE = OUTPUT_DIR / "program_fee_structure.json"
 
 def normalize(text):
     text = text.lower()

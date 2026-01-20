@@ -1,7 +1,7 @@
 {
     "page_type": "clubs_overview_page",
     "source_url": "https://www.nietbschool.ac.in/clubs-societies",
-    "last_scraped": "2026-01-19T08:35:19.655078",
+    "last_scraped": "2026-01-20T13:02:38.477556",
     "overview": {
         "title": "Learning by Doing: Clubs & Societies",
         "description": "Functional clubs across Marketing, Finance, Analytics, HR, International Business,\n                            Entrepreneurship, CSR, Culture, Sports, Communication, and Research allow students to\n                            experiment, lead initiatives, and apply classroom concepts to real-world scenarios."
@@ -52,5 +52,5 @@
             "domain": "Communication"
         }
     ],
-    "content_hash": "604f19327d9e42b1541c12d1b2df836593c762b9772266a7fbcfa5da3371f40f"
+    "content_hash": "b9544be5643c32d13e2a45869ed7a1e9e3447453b47f6cc40d300c48514c33c7"
 }

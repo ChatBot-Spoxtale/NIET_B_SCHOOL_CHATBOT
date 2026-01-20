@@ -1,6 +1,24 @@
 {
-    "about_page": "711e43dfb606779893fbfe6b03682d7a9fdc5ce7b68c2071d1b0b47f616bce67",
-    "vision_mission_page": "da8492404dbec7d1d96a25509a38430bd2f7c222235a2b07f45c32542ab3ee9d",
-    "peos_page": "f2514dd9f86f26c28ea2bba572b7d19cc93bd1a0210858c7a3c286ead33ef00f",
-    "accreditation_page": "d4548b5fc97a4314ea96f39eb522dd2cb05863219e7a5d374432e56ccd5e1c4e"
+    "club_anveshak.json": "e4a02fa94d98e1c6d11c83355b62d662b5a37dbc78dad15e75af6b396f13ebf0",
+    "program_fee_structure.json": "986976a4d2002d7e05072b9107a28062892d6e747d7cf266ea2640c1337b8460",
+    "club_vistar.json": "46c788c366442aabb887e0ff58659035c7ed6a5e3f2a717a34c3f135db063a41",
+    "club_prati_dhwani.json": "311227bb6bc9bcb415f31dcfaae3491b1e007d47ed2501f53d5758524658dee1",
+    "club_adhvan.json": "59d536679195c6b0ee4035c3d9b12720296615c0f53cd8f898806887fd274d1c",
+    "program_key_features.json": "c23f640fc02f1380d4e14f933d61e465e67cf565b284bcb8e267d3d3c9816ee8",
+    "club_udyam.json": "ae6ae988b3fe2aacf31bb345e67aeb429b31084bd346e06b8ba20b7f6809461d",
+    "accreditation_page.json": "25a1fcd789df31da6f51489b6a8637aa27983503f823145ec7510f81dedd24f1",
+    "vision_mission_page.json": "8ead05e3e66ccbf8fad249a522bd8cc74ef57a423819a799d06678e6bf8f3430",
+    "club_karmik.json": "f0e46b1279906f7b4376b792d0b99931b9ddbfd65275779a98b18156ac9d22b6",
+    "club_varnam.json": "7e64fd218e152e084764e4c5378d31a392d22dc802edd9b47317b1bdd2c687b6",
+    "club_swavlamban.json": "1b8bb2310ce39e4bfc329d5e6eab012b4ed0b6d874036d4cc26cbda946fd3944",
+    "about_page.json": "4c2c05b537defa694545b0a65cbc9291c5b5aaf6cc517a8530b3c8acae4d45a3",
+    "peos_page.json": "04560cec54438259660df9a7e4db1cb07d9447a5d4eb4ba570eb392aa3da4e66",
+    "contact_page.json": "d4f489dfc3dcfe33e4ad30fab53cd2dfd320550b8f5bfd023311347148120c30",
+    "club_pravah.json": "aafc73257ec61de26ecbb8d18d7958cdf76767c852f7e06ce7f27868b1eb6101",
+    "student_life_page.json": "61208c6b8946844dead24fb25ac2311363cf3a462ace05c6da0e417c551f3a09",
+    "club_vitt_arth.json": "ab13b0afe4e72d77879251b21ad958bea20bb2d9f6c39a6b3bf02a9c7836a516",
+    "clubs_overview_page.json": "9a077ce9d6b4e6b51cb3f07179a498d085ea3f55c1dc13939dd7d78ffc0ff03f",
+    "club_tejas.json": "32d27821ab0b00df9aebb80318e968f5e3a91d556bb7332913928566b622aba0",
+    "placements_page.json": "7c1bcf7c0237ad47cf918b1556008a19ae682a49ef0a4061c73bd03386afac10",
+    "program_objectives.json": "87ba6ba1b2b056b738a803d93be199f16883473d17ea6df4a53772038ff31756"
 }

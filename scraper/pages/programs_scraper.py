@@ -1,3 +1,4 @@
+from pathlib import Path
 import requests
 import hashlib
 import json
@@ -10,9 +11,12 @@ from PIL import Image
 import pytesseract
 
 URL = "https://www.nietbschool.ac.in/program"
-OUTPUT_FILE = "../output/programs_page.json"
 
-os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)
+BASE_DIR = Path(__file__).resolve().parents[1]
+OUTPUT_DIR = BASE_DIR / "output"
+OUTPUT_DIR.mkdir(exist_ok=True)
+
+OUTPUT_FILE = OUTPUT_DIR / "programs_page.json"
 
 def normalize(text: str) -> str:
     text = text.lower()
@@ -78,7 +82,7 @@ def extract_about_program(soup):
 
     return " ".join(content)
 
-#MAIN SCRAPER
+# MAIN SCRAPER
 def scrape_programs_page():
     response = requests.get(URL, timeout=20)
     response.raise_for_status()

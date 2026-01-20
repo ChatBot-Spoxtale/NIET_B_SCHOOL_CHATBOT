@@ -7,8 +7,12 @@ from pathlib import Path
 from urllib.parse import urljoin
 
 URL = "https://www.nietbschool.ac.in/varnam"
-OUTPUT_FILE = Path("../output/club_varnam.json")
 
+BASE_DIR = Path(__file__).resolve().parents[1]
+OUTPUT_DIR = BASE_DIR / "output"
+OUTPUT_DIR.mkdir(exist_ok=True)
+
+OUTPUT_FILE = OUTPUT_DIR / "club_varnam.json"
 
 def generate_hash(data: dict) -> str:
     clean = json.dumps(data, sort_keys=True, ensure_ascii=False)

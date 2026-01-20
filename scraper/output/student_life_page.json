@@ -1,7 +1,7 @@
 {
     "page_type": "student_life_page",
     "source_url": "https://www.nietbschool.ac.in/student-life",
-    "last_scraped": "2026-01-19T12:19:03.511890",
+    "last_scraped": "2026-01-20T13:02:42.284590",
     "student_life": {
         "title": "Student Life at NIET Business School",
         "description": "NIET Business School offers a vibrant ecosystem where learning continues well beyond classrooms. From clubs and committees to sports, fests, and social initiatives, every experience on campus is designed to build confidence, leadership, and a strong sense of community. Students collaborate on live projects, manage student-led events, participate in competitions, and engage with industry leaders on campus. These experiences help them sharpen problem-solving, team-working, and communication skills while creating memories that last a lifetime."
@@ -32,5 +32,5 @@
             "description": "On-campus medical center with qualified healthcare professionals providing first-aid and basic medical care for students' health and wellness."
         }
     ],
-    "content_hash": "788f119fcf959ce65be0b33349787474eb262e04838e0b1cbbdf954282c8c21f"
+    "content_hash": "3b57e30308a1c164bc52e54876315f9e800fd17ed9628d53e2b7ef9ddd4e557a"
 }

@@ -1,7 +1,7 @@
 {
     "page_type": "contact_page",
     "source_url": "https://www.nietbschool.ac.in/contact",
-    "last_scraped": "2026-01-19T08:18:43.917908",
+    "last_scraped": "2026-01-20T13:02:42.564617",
     "get_in_touch": {
         "main_campus": {
             "name": "Main Campus",
@@ -34,5 +34,5 @@
         "location_name": "NIET Business School",
         "address_text": "NIET Business School,Plot No. 19,\n                                        Knowledge Park II,Greater Noida,Uttar Pradesh – 201310"
     },
-    "content_hash": "91a5d4fd1f11ff2e0b67201326f1eafe4d9709fa278c9e87e819a54874c46a36"
+    "content_hash": "882e4bb13c58ab49832acae96a784b890079554e84fe7fe61776d2cc0829d519"
 }

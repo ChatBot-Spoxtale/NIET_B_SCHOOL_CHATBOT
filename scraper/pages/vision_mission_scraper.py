@@ -1,3 +1,4 @@
+from pathlib import Path
 import requests
 import hashlib
 import json
@@ -7,10 +8,12 @@ from bs4 import BeautifulSoup
 from datetime import datetime
 
 URL = "https://www.nietbschool.ac.in/vision-mission"
-OUTPUT_FILE = "../output/vision_mission_page.json"
 
-os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)
+BASE_DIR = Path(__file__).resolve().parents[1]
+OUTPUT_DIR = BASE_DIR / "output"
+OUTPUT_DIR.mkdir(exist_ok=True)
 
+OUTPUT_FILE = OUTPUT_DIR / "vision_mission_page.json"
 def normalize(text: str) -> str:
     text = text.lower()
     text = re.sub(r"\s+", " ", text)
@@ -22,7 +25,6 @@ def sha256_hash(text: str) -> str:
 def extract_vision_and_mission(soup: BeautifulSoup):
     vision_text = ""
     mission_list = []
-
     vision_heading = soup.find(
         "h3",
         string=lambda s: s and s.strip().lower() == "vision"
@@ -64,7 +66,6 @@ def scrape_vision_mission_page():
     response.raise_for_status()
 
     soup = BeautifulSoup(response.text, "html.parser")
-
     for tag in soup(["script", "style", "nav", "footer"]):
         tag.decompose()
 

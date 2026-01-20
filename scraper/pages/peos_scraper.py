@@ -1,3 +1,4 @@
+from pathlib import Path
 import requests
 import hashlib
 import json
@@ -7,7 +8,12 @@ from bs4 import BeautifulSoup
 from datetime import datetime
 
 URL = "https://www.nietbschool.ac.in/peos"
-OUTPUT_FILE = "../output/peos_page.json"
+
+BASE_DIR = Path(__file__).resolve().parents[1]
+OUTPUT_DIR = BASE_DIR / "output"
+OUTPUT_DIR.mkdir(exist_ok=True)
+
+OUTPUT_FILE = OUTPUT_DIR / "peos_page.json"
 
 os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)
 
@@ -37,7 +43,6 @@ def extract_peos(soup: BeautifulSoup):
             continue
 
         text = p.get_text(" ", strip=True)
-
         text = re.sub(r"^PEO\d+:\s*", "", text)
 
         if code and text:
@@ -54,7 +59,6 @@ def scrape_peos_page():
     response.raise_for_status()
 
     soup = BeautifulSoup(response.text, "html.parser")
-
     for tag in soup(["script", "style", "nav", "footer"]):
         tag.decompose()
 

@@ -1,3 +1,4 @@
+from pathlib import Path
 import requests
 import hashlib
 import json
@@ -7,9 +8,12 @@ from bs4 import BeautifulSoup
 from datetime import datetime
 
 URL = "https://www.nietbschool.ac.in/about"
-OUTPUT_FILE = "../output/about_page.json"
 
-os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)
+BASE_DIR = Path(__file__).resolve().parents[1]
+OUTPUT_DIR = BASE_DIR / "output"
+OUTPUT_DIR.mkdir(exist_ok=True)
+
+OUTPUT_FILE = OUTPUT_DIR / "about_page.json"
 
 def normalize(text: str) -> str:
     text = text.lower()
@@ -21,7 +25,6 @@ def sha256_hash(text: str) -> str:
     return hashlib.sha256(text.encode("utf-8")).hexdigest()
 
 def extract_overview(soup: BeautifulSoup) -> str:
-
     overview_section = soup.find("section", id="overview")
     if not overview_section:
         return ""
@@ -47,7 +50,6 @@ def scrape_about_page():
         tag.decompose()
 
     college_overview = extract_overview(soup)
-
     content_hash = sha256_hash(normalize(college_overview))
 
     result = {

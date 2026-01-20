@@ -7,9 +7,12 @@ from datetime import datetime
 from pathlib import Path
 
 URL = "https://www.nietbschool.ac.in/student-life"
-OUTPUT_FILE = Path("../output/student_life_page.json")
 
+BASE_DIR = Path(__file__).resolve().parents[1]
+OUTPUT_DIR = BASE_DIR / "output"
+OUTPUT_DIR.mkdir(exist_ok=True)
 
+OUTPUT_FILE = OUTPUT_DIR / "student_life_page.json"
 def normalize(text: str) -> str:
     return re.sub(r"\s+", " ", text).strip()
 

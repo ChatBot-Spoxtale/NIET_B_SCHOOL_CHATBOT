@@ -6,9 +6,12 @@ from datetime import datetime
 from pathlib import Path
 
 URL = "https://www.nietbschool.ac.in/contact"
-OUTPUT_FILE = Path(__file__).resolve().parents[1] / "output" / "contact_page.json"
 
+BASE_DIR = Path(__file__).resolve().parents[1]
+OUTPUT_DIR = BASE_DIR / "output"
+OUTPUT_DIR.mkdir(exist_ok=True)
 
+OUTPUT_FILE = OUTPUT_DIR / "contact_page.json"
 def get_hash(data: dict) -> str:
     return hashlib.sha256(
         json.dumps(data, sort_keys=True, ensure_ascii=False).encode("utf-8")

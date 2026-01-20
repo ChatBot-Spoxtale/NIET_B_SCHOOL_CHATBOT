@@ -1,3 +1,4 @@
+from pathlib import Path
 import requests
 import hashlib
 import json
@@ -7,9 +8,12 @@ from bs4 import BeautifulSoup
 from datetime import datetime
 
 URL = "https://www.nietbschool.ac.in/accreditation"
-OUTPUT_FILE = "../output/accreditation_page.json"
 
-os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)
+BASE_DIR = Path(__file__).resolve().parents[1]
+OUTPUT_DIR = BASE_DIR / "output"
+OUTPUT_DIR.mkdir(exist_ok=True)
+
+OUTPUT_FILE = OUTPUT_DIR / "accreditation_page.json"
 
 def normalize(text: str) -> str:
     text = text.lower()
@@ -28,7 +32,6 @@ def extract_accreditations(soup: BeautifulSoup):
 
     description_p = acc_section.find("p")
     description = description_p.get_text(strip=True) if description_p else ""
-
     cards = acc_section.find_all("div", class_=lambda c: c and "rounded-2xl" in c)
 
     for card in cards:
@@ -57,7 +60,6 @@ def scrape_accreditation_page():
     response.raise_for_status()
 
     soup = BeautifulSoup(response.text, "html.parser")
-
     for tag in soup(["script", "style", "nav", "footer"]):
         tag.decompose()
 

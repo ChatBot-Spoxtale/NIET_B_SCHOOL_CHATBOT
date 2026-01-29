@@ -1,0 +1,72 @@
+[
+  {
+    "id": "student_life_0",
+    "question": "What is student life like at NIET Business School?",
+    "answer": "NIET Business School offers a vibrant ecosystem where learning continues well beyond classrooms. From clubs and committees to sports, fests, and social initiatives, every experience on campus is designed to build confidence, leadership, and a strong sense of community. Students collaborate on live projects, manage student-led events, participate in competitions, and engage with industry leaders on campus. These experiences help them sharpen problem-solving, team-working, and communication skills while creating memories that last a lifetime.",
+    "keywords": [
+      "student life",
+      "student"
+    ]
+  },
+  {
+    "id": "student_life_1",
+    "question": "What in-house counsellor facilities are available at NIET Business School?",
+    "answer": "Professional counseling services available on campus to support students' mental health, academic performance, and personal development throughout their journey.",
+    "keywords": [
+      "in-house counsellor",
+    "counsellor"  ,
+  "facilities"  ]
+  },
+  {
+    "id": "student_life_2",
+    "question": "What sports facilities facilities are available at NIET Business School?",
+    "answer": "State-of-the-art sports infrastructure including indoor and outdoor facilities for various sports activities, promoting physical fitness and team spirit among students.",
+    "keywords": [
+      "sports facilities",
+      "sports",
+      "facilities"
+    ]
+  },
+  {
+    "id": "student_life_3",
+    "question": "What library & learning resources facilities are available at NIET Business School?",
+    "answer": "Well-equipped library with extensive collection of books, journals, and digital resources to support academic excellence and research.",
+    "keywords": [
+      "library & learning resources",
+      "learning",
+      "library",
+      "facilities"
+    ]
+  },
+  {
+    "id": "student_life_4",
+    "question": "What hostel facilities facilities are available at NIET Business School?",
+    "answer": "Comfortable and secure hostel accommodation with modern amenities, creating a home away from home for students.",
+    "keywords": [
+      "hostel facilities",
+      "hostel",
+      "facilities"
+        ]
+  },
+  {
+    "id": "student_life_5",
+    "question": "What cafeteria & dining facilities are available at NIET Business School?",
+    "answer": "Hygienic and nutritious food options available in the campus cafeteria, catering to diverse dietary preferences and requirements.",
+    "keywords": [
+      "cafeteria & dining",
+      "dining",
+      "cafeteria",
+      "facilities"
+    ]
+  },
+  {
+    "id": "student_life_6",
+    "question": "What medical facilities facilities are available at NIET Business School?",
+    "answer": "On-campus medical center with qualified healthcare professionals providing first-aid and basic medical care for students' health and wellness.",
+    "keywords": [
+      "medical facilities",
+      "medical",
+      "facilities"
+    ]
+  }
+]

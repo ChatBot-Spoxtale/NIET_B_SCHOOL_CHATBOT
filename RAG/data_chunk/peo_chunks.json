@@ -1,0 +1,54 @@
+[
+  {
+    "id": "peo_peo1",
+    "category": "peo",
+    "question": "What is PEO1 of the program?",
+    "answer": "Graduates will be inculcated with academic excellence to apply management theories & practices in a dynamic business environment for the achievement of organizational goals.",
+    "keywords": [
+      "peo",
+      "program educational objectives",
+      "objective",
+      "peo1"
+    ],
+    "source_url": "https://www.nietbschool.ac.in/peos"
+  },
+  {
+    "id": "peo_peo2",
+    "category": "peo",
+    "question": "What is PEO2 of the program?",
+    "answer": "Graduates will develop entrepreneurial and innovative mindsets with analytical and critical thinking abilities to solve complex business problems.",
+    "keywords": [
+      "peo",
+      "program educational objectives",
+      "objective",
+      "peo2"
+    ],
+    "source_url": "https://www.nietbschool.ac.in/peos"
+  },
+  {
+    "id": "peo_peo3",
+    "category": "peo",
+    "question": "What is PEO3 of the program?",
+    "answer": "Graduates will be developed as highly skilled Industry-ready, socially responsible, and value-based leaders to take creative and innovative decisions.",
+    "keywords": [
+      "peo",
+      "program educational objectives",
+      "objective",
+      "peo3"
+    ],
+    "source_url": "https://www.nietbschool.ac.in/peos"
+  },
+  {
+    "id": "peo_peo4",
+    "category": "peo",
+    "question": "What is PEO4 of the program?",
+    "answer": "Graduates will apply economic, legal, and ethical aspects of business to take decisions in a globally competitive environment.",
+    "keywords": [
+      "peo",
+      "program educational objectives",
+      "objective",
+      "peo4"
+    ],
+    "source_url": "https://www.nietbschool.ac.in/peos"
+  }
+]

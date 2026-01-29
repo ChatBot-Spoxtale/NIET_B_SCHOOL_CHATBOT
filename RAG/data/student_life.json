@@ -1,0 +1,36 @@
+{
+    "page_type": "student_life_page",
+    "source_url": "https://www.nietbschool.ac.in/student-life",
+    "last_scraped": "2026-01-20T13:02:42.284590",
+    "student_life": {
+        "title": "Student Life at NIET Business School",
+        "description": "NIET Business School offers a vibrant ecosystem where learning continues well beyond classrooms. From clubs and committees to sports, fests, and social initiatives, every experience on campus is designed to build confidence, leadership, and a strong sense of community. Students collaborate on live projects, manage student-led events, participate in competitions, and engage with industry leaders on campus. These experiences help them sharpen problem-solving, team-working, and communication skills while creating memories that last a lifetime."
+    },
+    "facilities": [
+        {
+            "title": "In-house Counsellor",
+            "description": "Professional counseling services available on campus to support students' mental health, academic performance, and personal development throughout their journey."
+        },
+        {
+            "title": "Sports Facilities",
+            "description": "State-of-the-art sports infrastructure including indoor and outdoor facilities for various sports activities, promoting physical fitness and team spirit among students."
+        },
+        {
+            "title": "Library & Learning Resources",
+            "description": "Well-equipped library with extensive collection of books, journals, and digital resources to support academic excellence and research."
+        },
+        {
+            "title": "Hostel Facilities",
+            "description": "Comfortable and secure hostel accommodation with modern amenities, creating a home away from home for students."
+        },
+        {
+            "title": "Cafeteria & Dining",
+            "description": "Hygienic and nutritious food options available in the campus cafeteria, catering to diverse dietary preferences and requirements."
+        },
+        {
+            "title": "Medical Facilities",
+            "description": "On-campus medical center with qualified healthcare professionals providing first-aid and basic medical care for students' health and wellness."
+        }
+    ],
+    "content_hash": "3b57e30308a1c164bc52e54876315f9e800fd17ed9628d53e2b7ef9ddd4e557a"
+}

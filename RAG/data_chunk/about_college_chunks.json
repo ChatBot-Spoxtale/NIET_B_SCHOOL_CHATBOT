@@ -1,0 +1,46 @@
+[
+  {
+    "id": "college_overview",
+    "category": "about_college",
+    "question": "What is NIET Business School?",
+    "answer": "NIET Business School, Greater Noida, managed by the City Educational and Welfare Society, caters to over 20,000 students and is run by a group of distinguished Doctors, Engineers, and Professionals. The Society was established with a vision to provide value-driven education of global standards. It manages several prestigious institutions, namely Noida Institute of Engineering & Technology, Noida Institute of Engineering & Technology (Pharmacy Institute), NIET Business School, Greater Noida, and City Vocational Public School (CVPS), Meerut. At NIET Business School, Greater Noida, we strive to shape future leaders by providing world-class education in management. Our Post Graduate Diploma in Management (PGDM) program is approved by AICTE and the Ministry of Education, Government of India, and is recognized as MBA equivalent by the Association of Indian Universities (AIU). The Institute offers dual specializations in Marketing, OB & Human Resource Management, Finance, Business Analytics, Supply Chain Management and Logistics, International Business & NexGen Startup & Entrepreneurship. We provide a comprehensive two-year, full-time program designed to combine academic learning with real-world industry experiences, preparing students to succeed in the global business arena.",
+    "keywords": [
+      "college",
+      "overview"
+    ],
+    "source_url": "https://www.nietbschool.ac.in/about"
+  },
+  {
+    "id": "college_vision",
+    "category": "about_college",
+    "question": "What is the vision of NIET Business School?",
+    "answer": "To establish PGDM as a preferred choice for producing socially responsible, \n                                    industry-ready management professionals with entrepreneurial zeal.",
+    "keywords": [
+      "vision"
+    ],
+    "source_url": "https://www.nietbschool.ac.in/vision-mission"
+  },
+  {
+    "id": "college_mission",
+    "category": "about_college",
+    "question": "What is the mission of NIET Business School?",
+    "answer": "M1:To develop a globally recognized management institute through academic excellence.\nM2:To foster an entrepreneurial and innovative mindset in management professionals.\nM3:To develop highly skilled, globally competent, industry-ready professionals with a high order of critical thinking.\nM4:To instill values and ethics to produce socially responsible leaders.",
+    "keywords": [
+      "mission"
+        ],
+    "source_url": "https://www.nietbschool.ac.in/vision-mission"
+  },
+  {
+    "id": "college_accreditations",
+    "category": "about_college",
+    "question": "What accreditations does NIET Business School have?",
+    "answer": "NIET Business School is recognised and accredited by prominent national and international accreditation bodies. These accreditations reflect our commitment to quality education, academic excellence, and industry-aligned management programs. Our accreditations validate the high standards we maintain in curriculum design, faculty expertise, infrastructure, and student outcomes.\n\nAICTE Approved (AICTE)\nAIU Recognised (AIU)\nNBA Accredited (NBA)\nAACSB (AACSB)\nISO Certified (ISO)\nAIMA (AIMA)\nNHRD (NHRD)",
+    "keywords": [
+      "aicte",
+      "nba",
+      "aacsb",
+      "accreditation"
+    ],
+    "source_url": "https://www.nietbschool.ac.in/accreditation"
+  }
+]

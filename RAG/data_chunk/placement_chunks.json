@@ -1,0 +1,68 @@
+[
+  {
+    "id": "placement_summary",
+    "category": "placement",
+    "question": "What is the placement record at NIET Business School?",
+    "answer": "Placement Rate: 95%\nAverage Package: ₹12.5L\nRecruiting Companies: 150+\nHighest Package: ₹25L",
+    "keywords": [
+      "placement",
+      "placement record",
+      "placements",
+      "package",
+      "recruiters"
+    ],
+    "source_url": "https://www.nietbschool.ac.in/placement"
+  },
+  {
+    "id": "placement_placement_rate",
+    "category": "placement",
+    "question": "What is the placement rate at NIET Business School?",
+    "answer": "95%",
+    "keywords": [
+      "placement",
+      "placement rate",
+      "package",
+      "record"
+    ],
+    "source_url": "https://www.nietbschool.ac.in/placement"
+  },
+  {
+    "id": "placement_average_package",
+    "category": "placement",
+    "question": "What is the average package at NIET Business School?",
+    "answer": "₹12.5L",
+    "keywords": [
+      "placement",
+      "average package",
+      "package",
+      "record"
+    ],
+    "source_url": "https://www.nietbschool.ac.in/placement"
+  },
+  {
+    "id": "placement_recruiting_companies",
+    "category": "placement",
+    "question": "What is the recruiting companies at NIET Business School?",
+    "answer": "150+",
+    "keywords": [
+      "placement",
+      "recruiting companies",
+      "package",
+      "record"
+    ],
+    "source_url": "https://www.nietbschool.ac.in/placement"
+  },
+  {
+    "id": "placement_highest_package",
+    "category": "placement",
+    "question": "What is the highest package at NIET Business School?",
+    "answer": "₹25L",
+    "keywords": [
+      "placement",
+      "highest package",
+      "package",
+      "record"
+    ],
+    "source_url": "https://www.nietbschool.ac.in/placement"
+  }
+]

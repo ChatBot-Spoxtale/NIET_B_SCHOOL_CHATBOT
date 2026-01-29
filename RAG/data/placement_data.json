@@ -1,0 +1,25 @@
+{
+    "page_type": "placements_page",
+    "source_url": "https://www.nietbschool.ac.in/placement",
+    "last_scraped": "2026-01-20T13:02:41.975349",
+    "statistics": [
+        {
+            "label": "Placement Rate",
+            "value": "95%"
+        },
+        {
+            "label": "Average Package",
+            "value": "₹12.5L"
+        },
+        {
+            "label": "Recruiting Companies",
+            "value": "150+"
+        },
+        {
+            "label": "Highest Package",
+            "value": "₹25L"
+        }
+    ],
+    "placement_banner": "https://www.nietbschool.ac.in/assets/images/banner/mobile/home4.webp",
+    "content_hash": "2b24b36bceacd3b363d15cd3f79256fd80dfd17e96c16e8c6664fd8e72533de1"
+}

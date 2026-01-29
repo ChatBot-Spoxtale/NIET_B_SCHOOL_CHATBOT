@@ -1,0 +1,86 @@
+{
+    "college_name": "NIET Business School",
+    "source": "https://www.nietbschool.ac.in",
+    "last_merged": "2026-01-20T13:02:42.607789",
+    "sections": {
+        "college_overview": {
+            "source_url": "https://www.nietbschool.ac.in/about",
+            "content": "NIET Business School, Greater Noida, managed by the City Educational and Welfare Society, caters to over 20,000 students and is run by a group of distinguished Doctors, Engineers, and Professionals. The Society was established with a vision to provide value-driven education of global standards. It manages several prestigious institutions, namely Noida Institute of Engineering & Technology, Noida Institute of Engineering & Technology (Pharmacy Institute), NIET Business School, Greater Noida, and City Vocational Public School (CVPS), Meerut. At NIET Business School, Greater Noida, we strive to shape future leaders by providing world-class education in management. Our Post Graduate Diploma in Management (PGDM) program is approved by AICTE and the Ministry of Education, Government of India, and is recognized as MBA equivalent by the Association of Indian Universities (AIU). The Institute offers dual specializations in Marketing, OB & Human Resource Management, Finance, Business Analytics, Supply Chain Management and Logistics, International Business & NexGen Startup & Entrepreneurship. We provide a comprehensive two-year, full-time program designed to combine academic learning with real-world industry experiences, preparing students to succeed in the global business arena."
+        },
+        "vision": {
+            "source_url": "https://www.nietbschool.ac.in/vision-mission",
+            "content": "To establish PGDM as a preferred choice for producing socially responsible, \n                                    industry-ready management professionals with entrepreneurial zeal."
+        },
+        "mission": {
+            "source_url": "https://www.nietbschool.ac.in/vision-mission",
+            "points": [
+                "M1:To develop a globally recognized management institute through academic excellence.",
+                "M2:To foster an entrepreneurial and innovative mindset in management professionals.",
+                "M3:To develop highly skilled, globally competent, industry-ready professionals with a high order of critical thinking.",
+                "M4:To instill values and ethics to produce socially responsible leaders."
+            ]
+        },
+        "program_educational_objectives": {
+            "source_url": "https://www.nietbschool.ac.in/peos",
+            "peos": [
+                {
+                    "code": "PEO1",
+                    "description": "Graduates will be inculcated with academic excellence to apply management theories & practices in a dynamic business environment for the achievement of organizational goals."
+                },
+                {
+                    "code": "PEO2",
+                    "description": "Graduates will develop entrepreneurial and innovative mindsets with analytical and critical thinking abilities to solve complex business problems."
+                },
+                {
+                    "code": "PEO3",
+                    "description": "Graduates will be developed as highly skilled Industry-ready, socially responsible, and value-based leaders to take creative and innovative decisions."
+                },
+                {
+                    "code": "PEO4",
+                    "description": "Graduates will apply economic, legal, and ethical aspects of business to take decisions in a globally competitive environment."
+                }
+            ]
+        },
+        "accreditations": {
+            "source_url": "https://www.nietbschool.ac.in/accreditation",
+            "description": "NIET Business School is recognised and accredited by prominent national and international accreditation bodies. These accreditations reflect our commitment to quality education, academic excellence, and industry-aligned management programs. Our accreditations validate the high standards we maintain in curriculum design, faculty expertise, infrastructure, and student outcomes.",
+            "list": [
+                {
+                    "code": "AICTE",
+                    "title": "AICTE Approved",
+                    "description": "All India Council for Technical Education"
+                },
+                {
+                    "code": "AIU",
+                    "title": "AIU Recognised",
+                    "description": "MBA Equivalent Recognition"
+                },
+                {
+                    "code": "NBA",
+                    "title": "NBA Accredited",
+                    "description": "National Board of Accreditation"
+                },
+                {
+                    "code": "AACSB",
+                    "title": "AACSB",
+                    "description": "Association to Advance Collegiate Schools of Business"
+                },
+                {
+                    "code": "ISO",
+                    "title": "ISO Certified",
+                    "description": "Quality Management System"
+                },
+                {
+                    "code": "AIMA",
+                    "title": "AIMA",
+                    "description": "All India Management Association"
+                },
+                {
+                    "code": "NHRD",
+                    "title": "NHRD",
+                    "description": "National HRD Network"
+                }
+            ]
+        }
+    }
+}

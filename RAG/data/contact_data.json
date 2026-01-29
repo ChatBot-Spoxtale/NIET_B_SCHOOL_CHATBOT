@@ -1,0 +1,38 @@
+{
+    "page_type": "contact_page",
+    "source_url": "https://www.nietbschool.ac.in/contact",
+    "last_scraped": "2026-01-20T13:02:42.564617",
+    "get_in_touch": {
+        "main_campus": {
+            "name": "Main Campus",
+            "address": [
+                "NIET Business School,",
+                "Plot No. 19,",
+                "Knowledge Park II,",
+                "Greater Noida,",
+                "Uttar Pradesh – 201310"
+            ]
+        },
+        "remote_admission_office": {
+            "name": "Remote Admission Office",
+            "address": [
+                "Xplore Imperia, 702, DN-21,",
+                "DN Block, Sector V, Salt Lake,",
+                "Kolkata, West Bengal – 700091"
+            ]
+        },
+        "admission_helpline": [
+            "+91-9289801606",
+            "+91-8010500700",
+            "+91-9289801606",
+            "+91-8010500700"
+        ],
+        "email": "admission@nietbschool.ac.in"
+    },
+    "map": {
+        "embed_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3504.1234567890123!2d77.4871893!3d28.4775412!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa5b6a55af50e1fbd%3A0x2efc2be826f12afb!2sNIET%20Business%20School!5e0!3m2!1sen!2sin!4v1736256000000!5m2!1sen!2sin",
+        "location_name": "NIET Business School",
+        "address_text": "NIET Business School,Plot No. 19,\n Knowledge Park II,Greater Noida,Uttar Pradesh – 201310"
+    },
+    "content_hash": "882e4bb13c58ab49832acae96a784b890079554e84fe7fe61776d2cc0829d519"
+}

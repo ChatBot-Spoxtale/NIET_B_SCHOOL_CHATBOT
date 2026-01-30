@@ -28,6 +28,10 @@ class ChatRequest(BaseModel):
 
 class ChatResponse(BaseModel):
     answer: str
+class Action(BaseModel):
+    type: str
+    label: str
+    url: Optional[str] = None
 class SensitiveRedirectResponse(BaseModel):
     type: str = "sensitive_redirect"
     text: str
@@ -38,14 +42,12 @@ class PositiveSensitiveResponse(BaseModel):
     text: str
     details: List[str]
     actions: List[Action]
+    
 class NormalChatResponse(BaseModel):
     type: str = "normal"
     answer: str
 
-class Action(BaseModel):
-    type: str
-    label: str
-    url: Optional[str] = None
+
 
 @app.post(
     "/chat",

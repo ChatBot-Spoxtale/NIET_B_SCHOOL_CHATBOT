@@ -4,3 +4,4 @@ numpy
 dotenv
 openai
 fastapi
+uvicorn 

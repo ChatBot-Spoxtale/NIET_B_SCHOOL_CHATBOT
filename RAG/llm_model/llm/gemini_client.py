@@ -182,5 +182,5 @@ def generate_answer(context: str, question: str, history: list):
             return (
                 "Our system is currently experiencing high traffic. "
                 "Please try again in a few minutes or visit our website: "
-                "https://www.niet.co.in/"
+                "https://www.nietbschool.ac.in/"
             )

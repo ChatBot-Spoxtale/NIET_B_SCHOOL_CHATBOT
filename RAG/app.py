@@ -80,7 +80,7 @@ def chat_endpoint(payload: ChatRequest):
             "answer": (
                 "Our system is currently experiencing high traffic. "
                 "Please try again in a few minutes or visit our website: "
-                "https://www.niet.co.in/"
+                "https://www.nietbschool.ac.in/"
             )
         }
 

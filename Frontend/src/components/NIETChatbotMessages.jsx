@@ -580,7 +580,7 @@ export default function NIETChatbotMessages({embed=false}) {
 
   const sendCallbackToBackend = async (data) => {
     try {
-      await fetch("http://localhost:8060/api/save-callback", {
+      await fetch("https://niet-b-school-chatbot.onrender.com/api/save-callback", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -722,7 +722,7 @@ export default function NIETChatbotMessages({embed=false}) {
     setIsSending(true)
 
     try {
-      const res = await fetch("http://localhost:8060/chat", {
+      const res = await fetch("https://niet-b-school-chatbot.onrender.com/chat", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ question: text }),

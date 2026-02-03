@@ -28,7 +28,10 @@ class ChatRequest(BaseModel):
 
 class ChatResponse(BaseModel):
     answer: str
-    
+class Action(BaseModel):
+    type: str
+    label: str
+    url: Optional[str] = None
 class SensitiveRedirectResponse(BaseModel):
     type: str = "sensitive_redirect"
     text: str
@@ -44,10 +47,6 @@ class NormalChatResponse(BaseModel):
     type: str = "normal"
     answer: str
 
-class Action(BaseModel):
-    type: str
-    label: str
-    url: Optional[str] = None
 def is_short_llm_question(q: str) -> bool:
     q = q.lower()
     return (
@@ -109,3 +108,4 @@ def root():
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run("main:app", host="0.0.0.0", port=8060, reload=True)
+

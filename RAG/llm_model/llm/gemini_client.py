@@ -178,7 +178,7 @@ Final Answer:
 
 def generate_answer(context: str, question: str, history: list):
     prompt = build_prompt(context, question, history)
-    # detailed = is_detailed_query(question)
+    detailed = is_detailed_query(question)
 
     try:
         response = client.models.generate_content(
@@ -187,9 +187,11 @@ def generate_answer(context: str, question: str, history: list):
         )
 
         answer = response.text.strip()
-
         if not detailed:
-            answer = " ".join(answer.split()[:100])
+            sentences = answer.split(". ")
+            answer = ". ".join(sentences[:3]).strip()
+            if not answer.endswith("."):
+                answer += "."
         return answer
 
     except Exception as gemini_error:

@@ -20,18 +20,18 @@ function extractLinkFromText(text) {
   if (!text || typeof text !== 'string') {
     return { cleanText: text, link: null }
   }
-  
+
   // Regular expression to match URLs
   const urlRegex = /(https?:\/\/[^\s]+)/g
   const matches = text.match(urlRegex)
-  
+
   if (matches && matches.length > 0) {
     // Remove the URL from the text to get clean text
     const cleanText = text.replace(urlRegex, '').trim()
     // Return the first URL found
     return { cleanText: cleanText || null, link: matches[0] }
   }
-  
+
   // If no links found, return original text as cleanText
   return { cleanText: text, link: null }
 }
@@ -175,12 +175,12 @@ function renderCourseDetails(text) {
   return (
     <div className="space-y-3 w-full">
       {contentGroups.filter(group => {
-    if (!group.title) return false
-    const hasMeaningfulText = group.items.some(
-      item => item.replace(/[^\w\s]/g, "").trim().length > 0
-    )
-    return hasMeaningfulText
-  }).map((group, groupIdx) => {
+        if (!group.title) return false
+        const hasMeaningfulText = group.items.some(
+          item => item.replace(/[^\w\s]/g, "").trim().length > 0
+        )
+        return hasMeaningfulText
+      }).map((group, groupIdx) => {
         const title = group.title?.slice(1, -1)
         const icon = sectionIcons[group.title] || ""
 
@@ -265,42 +265,42 @@ function renderBulletList(text) {
             <div key={idx} className="bullet-list-card">
               <ul className="space-y-3">
                 {elem.items.map((item, itemIdx) => {
-  const { cleanText, link } = extractLinkFromText(item)
+                  const { cleanText, link } = extractLinkFromText(item)
 
-  if (!cleanText && !link) return null
+                  if (!cleanText && !link) return null
 
-  return (
-    <li key={itemIdx} className="flex flex-col gap-1">
-      {/* Bullet text */}
-      {cleanText && (
-        <div className="flex gap-3 items-start">
-          <span className="w-2 h-2 bg-red-500 rounded-full mt-1.5 shrink-0 shadow-sm" />
-          <span className="text-sm text-slate-700 leading-relaxed">
-            {cleanText}
-          </span>
-        </div>
-      )}
+                  return (
+                    <li key={itemIdx} className="flex flex-col gap-1">
+                      {/* Bullet text */}
+                      {cleanText && (
+                        <div className="flex gap-3 items-start">
+                          <span className="w-2 h-2 bg-red-500 rounded-full mt-1.5 shrink-0 shadow-sm" />
+                          <span className="text-sm text-slate-700 leading-relaxed">
+                            {cleanText}
+                          </span>
+                        </div>
+                      )}
 
-      {/* Link outside bullet */}
-      {link && (
-        <button
-          onClick={() => window.open(link, "_blank")}
-          className="ml-5 relative z-[999] pointer-events-auto inline-flex items-center gap-2 px-5 py-2 rounded-full bg-[#e2111f] text-white font-semibold text-sm hover:bg-[#b00d18] transition-all shadow-md cursor-pointer"
-        >
-          <span>Visit Official Link</span>
-          <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth={2}
-              d="M14 3h7m0 0v7m0-7L10 14"
-            />
-          </svg>
-        </button>
-      )}
-    </li>
-  )
-})}
+                      {/* Link outside bullet */}
+                      {link && (
+                        <button
+                          onClick={() => window.open(link, "_blank")}
+                          className="ml-5 relative z-[999] pointer-events-auto inline-flex items-center gap-2 px-5 py-2 rounded-full bg-[#e2111f] text-white font-semibold text-sm hover:bg-[#b00d18] transition-all shadow-md cursor-pointer"
+                        >
+                          <span>Visit Official Link</span>
+                          <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              strokeWidth={2}
+                              d="M14 3h7m0 0v7m0-7L10 14"
+                            />
+                          </svg>
+                        </button>
+                      )}
+                    </li>
+                  )
+                })}
 
               </ul>
             </div>
@@ -308,8 +308,8 @@ function renderBulletList(text) {
         }
 
         return (
-          <div 
-            key={idx} 
+          <div
+            key={idx}
             className="rounded-lg p-3 border-l-4 border-red-500 shadow-sm"
             style={{
               background: 'linear-gradient(to right, #fef2f2, #ffffff)',
@@ -411,32 +411,32 @@ function renderGreeting(text) {
 }
 
 const renderWithLinks = (text) => {
-  
-if (text.startsWith("LINK::")) {
-  const [, payload] = text.split("LINK::")
-  const [label, url] = payload.split("||")
 
-  return (
-    <button
-      type="button"
-      onClick={(e) => {
-        e.stopPropagation()
-        window.open(url, "_blank", "noopener,noreferrer")
-      }}
-      className="relative z-[999] pointer-events-auto inline-flex items-center gap-2 px-5 py-2 rounded-full bg-[#e2111f] text-white font-semibold text-sm hover:bg-[#b00d18] transition-all shadow-md cursor-pointer"
-    >
-      <span>{label}</span>
-      <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          strokeWidth={2}
-          d="M14 3h7m0 0v7m0-7L10 14"
-        />
-      </svg>
-    </button>
-  )
-}
+  if (text.startsWith("LINK::")) {
+    const [, payload] = text.split("LINK::")
+    const [label, url] = payload.split("||")
+
+    return (
+      <button
+        type="button"
+        onClick={(e) => {
+          e.stopPropagation()
+          window.open(url, "_blank", "noopener,noreferrer")
+        }}
+        className="relative z-[999] pointer-events-auto inline-flex items-center gap-2 px-5 py-2 rounded-full bg-[#e2111f] text-white font-semibold text-sm hover:bg-[#b00d18] transition-all shadow-md cursor-pointer"
+      >
+        <span>{label}</span>
+        <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth={2}
+            d="M14 3h7m0 0v7m0-7L10 14"
+          />
+        </svg>
+      </button>
+    )
+  }
 
   if (typeof text !== "string") {
     return <span>{""}</span>
@@ -519,7 +519,7 @@ const INITIAL_OPTIONS = [
 
 
 
-export default function NIETChatbotMessages({embed=false}) {
+export default function NIETChatbotMessages({ embed = false }) {
   const [messages, setMessages] = useState([])
   const [input, setInput] = useState("")
   const [typing, setTyping] = useState(false)
@@ -620,7 +620,7 @@ export default function NIETChatbotMessages({embed=false}) {
       sendMessage("List of Clubs")
       return
     }
-    
+
     if (opt === "Student Life") {
       sendMessage("Student Life")
       return
@@ -732,6 +732,62 @@ export default function NIETChatbotMessages({embed=false}) {
       await delay(600)
 
       if (data.images?.length) pushImages(data.images)
+      if (data.type === "positive_sensitive") {
+        if (data.text) {
+          pushBot(data.text)
+        }
+
+        if (Array.isArray(data.details)) {
+          const bulletText = data.details.map(d => `- ${d}`).join("\n")
+          pushBot(bulletText)
+        }
+
+        if (Array.isArray(data.actions)) {
+          data.actions.forEach(action => {
+            if (action.type === "callback") {
+              if (isCallbackLimitReached()) {
+                pushBot(
+                  "You have reached the maximum number of callback requests. "
+                  + "Please wait or contact NIET directly through the official website."
+                )
+              } else {
+                incrementCallbackCount()
+                pushBot("Would you like our counsellor to contact you?")
+                pushOptions(["Request Callback"], false)
+              }
+            }
+
+
+            if (action.type === "link" && action.url) {
+              pushBot(`LINK::${action.label}||${action.url}`)
+            }
+          })
+        }
+        setTyping(false)
+        setIsSending(false)
+        return
+      }
+      if (data.type === "sensitive_redirect") {
+        if (data.text) {
+          pushBot(data.text)
+        }
+
+        if (Array.isArray(data.actions)) {
+          data.actions.forEach(action => {
+            if (action.type === "callback") {
+              pushBot("Would you like our counsellor to contact you?")
+              pushOptions(["Request Callback"], false)
+            }
+
+            if (action.type === "link" && action.url) {
+              pushBot(`LINK::${action.label}||${action.url}`)
+            }
+          })
+        }
+        setTyping(false)
+        setIsSending(false)
+        return
+      }
       if (data.text || data.link) {
         if (data.text) pushBot(data.text)
         if (data.link?.url) {
@@ -751,23 +807,21 @@ export default function NIETChatbotMessages({embed=false}) {
   }
 
 
-    // derive suggestions from most recent options message (render scope)
-    const lastOptionsMessage = [...messages].slice().reverse().find((m) => m.type === "options")
-    const suggestions = lastOptionsMessage?.options?.slice(0, 5) || []
-    const lastOptionsId = lastOptionsMessage?.id || null
+  const lastOptionsMessage = [...messages].slice().reverse().find((m) => m.type === "options")
+  const suggestions = lastOptionsMessage?.options?.slice(0, 5) || []
+  const lastOptionsId = lastOptionsMessage?.id || null
 
 
   return (
-  <div
-    className={`h-full flex flex-col overflow-hidden relative transform-gpu ${
-      embed ? "" : "bg-white"
-    }`}
-  >
-      {!embed && <div className="chat-mesh-bg" />}
+    <div
+      className={`h-full flex flex-col overflow-hidden relative ${embed ? "" : "bg-white"
+        }`}
+    >
+      {!open && !embed && <div className="chat-mesh-bg" />}
 
       <div className="px-5 py-4 bg-gradient-to-r from-[#e2111f] via-[#d00a1c] to-[#b00d18] flex items-center gap-3 shrink-0 shadow-lg relative z-10 border-b border-white/10 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-r from-white/5 via-transparent to-white/5 opacity-40 pointer-events-none" />
-        
+
         <div className="relative z-10">
           <div className="w-11 h-11 bg-white/95 rounded-xl flex items-center justify-center shadow-lg overflow-hidden border border-white/20 backdrop-blur-sm">
             <img src="/niet-logo.svg" alt="NIET" className="w-full h-full object-contain p-1.5" />
@@ -852,8 +906,8 @@ export default function NIETChatbotMessages({embed=false}) {
 
               <div
                 className={`relative z-10 pointer-events-auto leading-relaxed whitespace-pre-line transition-all duration-200 ${m.from === "user"
-                    ? "user-bubble"
-                    : "bot-bubble"
+                  ? "user-bubble"
+                  : "bot-bubble"
                   }`}
               >
                 {m.type === "options" ? (
@@ -948,7 +1002,7 @@ export default function NIETChatbotMessages({embed=false}) {
           </div>
         )}
         {/* suggestion bar (Starky-like quick replies) */}
-        {suggestions.length > 0 && (
+        {/* {suggestions.length > 0 && (
           <div className="px-5 pb-3">
             <div className="suggestion-bar flex gap-2 flex-wrap">
               {suggestions.map((s) => (
@@ -962,7 +1016,7 @@ export default function NIETChatbotMessages({embed=false}) {
               ))}
             </div>
           </div>
-        )}
+        )} */}
       </div>
 
       <div className={`px-4 py-4 ${embed ? "" : "bg-white border-t border-slate-100/50 shadow-[0_-4px_16px_rgba(0,0,0,0.08)]"}`}>

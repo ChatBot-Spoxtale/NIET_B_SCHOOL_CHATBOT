@@ -42,13 +42,22 @@ class PositiveSensitiveResponse(BaseModel):
     text: str
     details: List[str]
     actions: List[Action]
-    
+
 class NormalChatResponse(BaseModel):
     type: str = "normal"
     answer: str
 
-
-
+def is_short_llm_question(q: str) -> bool:
+    q = q.lower()
+    return (
+        q.startswith("is ")
+        or q.startswith("are ")
+        or q.startswith("can ")
+        or q.startswith("does ")
+        or q.startswith("do ")
+        or q.startswith("why ")
+        or "safe" in q
+    )
 @app.post(
     "/chat",
     response_model=Union[
@@ -57,6 +66,7 @@ class NormalChatResponse(BaseModel):
         PositiveSensitiveResponse
     ]
 )
+
 def chat_endpoint(payload: ChatRequest):
 
     question = payload.question.lower()
@@ -66,6 +76,13 @@ def chat_endpoint(payload: ChatRequest):
             if is_safety_confirmation_query(payload.question):
                 return POSITIVE_SENSITIVE_RESPONSE
             return SENSITIVE_REDIRECT_RESPONSE
+
+        if is_short_llm_question(question):
+            answer = chat(question)
+            return {
+        "type": "normal",
+        "answer": answer
+    }
 
         answer = chat(question)
         return {
@@ -80,7 +97,7 @@ def chat_endpoint(payload: ChatRequest):
             "answer": (
                 "Our system is currently experiencing high traffic. "
                 "Please try again in a few minutes or visit our website: "
-                "https://www.nietbschool.ac.in/"
+                "https://www.niet.co.in/"
             )
         }
 
@@ -91,3 +108,5 @@ def root():
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run("app:app", host="0.0.0.0", port=8060, reload=True)
+
+

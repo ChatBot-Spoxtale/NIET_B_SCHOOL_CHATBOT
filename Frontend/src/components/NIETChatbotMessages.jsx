@@ -632,7 +632,7 @@ export default function NIETChatbotMessages({ embed = false }) {
     }
 
     if (opt === "Contact Information") {
-      sendMessage("Contact Information")
+      sendMessage("HelpLine Number")
       return
     }
 

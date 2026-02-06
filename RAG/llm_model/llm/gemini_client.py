@@ -100,6 +100,23 @@ If asked about:
 → Respond ONLY with:
 "Please visit our official website for accurate information: https://www.nietbschool.ac.in/"
 
+ANSWER LENGTH CONTROL (CRITICAL):
+
+- DEFAULT BEHAVIOR:
+  • Answer in EXACTLY 2–3 short sentences.
+  • Each sentence must be concise and factual.
+  • Do NOT exceed 60 words total.
+  • Do NOT add examples, background, or explanations.
+
+- ONLY IF the user explicitly asks for:
+  "more detail", "more details", "in detail",
+  "full detail", "full summary", "explain more",
+  "elaborate", "tell me more", "complete information":
+
+  • Provide a detailed explanation.
+  • Use paragraphs or bullet points if helpful.
+  • Cover all relevant points from Available Information.
+
 Missing Data Rule:
 If the answer is NOT present in Available Information:
 Reply EXACTLY:
@@ -129,13 +146,14 @@ def generate_answer(context: str, question: str, history: list):
         )
 
         answer = response.text.strip()
-
         if not detailed:
-            answer = " ".join(answer.split()[:100])
+            sentences = answer.split(". ")
+            answer = ". ".join(sentences[:3]).strip()
+            if not answer.endswith("."):
+                answer += "."
         return answer
 
     except Exception as gemini_error:
-        # error_text = str(gemini_error).lower()
         print("Gemini failed:", gemini_error)
 
         try:

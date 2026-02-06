@@ -1,7 +1,7 @@
 {
     "page_type": "placements_page",
     "source_url": "https://www.nietbschool.ac.in/placement",
-    "last_scraped": "2026-01-20T13:02:41.975349",
+    "last_scraped": "2026-02-05T12:38:28.526826+00:00",
     "statistics": [
         {
             "label": "Placement Rate",
@@ -20,6 +20,88 @@
             "value": "₹25L"
         }
     ],
-    "placement_banner": "https://www.nietbschool.ac.in/assets/images/banner/mobile/home4.webp",
-    "content_hash": "2b24b36bceacd3b363d15cd3f79256fd80dfd17e96c16e8c6664fd8e72533de1"
+    "placement_banner": "https://www.nietbschool.ac.in/assets/images/banner/mobile/home4(2).webp",
+    "placed_students_section": {
+        "title": "Our Placed Students",
+        "description": "Meet some of our successful graduates who have secured positions in leading companies across various industries.",
+        "students": [
+            {
+                "student_name": "Aditya Sharma",
+                "company_name": "AAJ Supply Chain Management"
+            },
+            {
+                "student_name": "Akshay Wadhvani",
+                "company_name": "Golden Peakock Overseas Ltd."
+            },
+            {
+                "student_name": "Mansi Kumari",
+                "company_name": "Agranik Foods Pvt Ltd"
+            },
+            {
+                "student_name": "Shubbi Rani",
+                "company_name": "Ritex"
+            },
+            {
+                "student_name": "Sidharth Kumar Mishra",
+                "company_name": "HDFC Life Insurance"
+            },
+            {
+                "student_name": "Vishal Panchal",
+                "company_name": "Vivo"
+            },
+            {
+                "student_name": "Arshita Agrahari",
+                "company_name": "Book your keys"
+            },
+            {
+                "student_name": "Asifa Jamal",
+                "company_name": "Book your keys"
+            },
+            {
+                "student_name": "Vipendra Bhati",
+                "company_name": "Book your keys"
+            },
+            {
+                "student_name": "Ankit Akash",
+                "company_name": "High Creation Interior"
+            },
+            {
+                "student_name": "Archita Bhati",
+                "company_name": "High Creation Interior"
+            },
+            {
+                "student_name": "Prashant Kumar",
+                "company_name": "High Creation Interior"
+            },
+            {
+                "student_name": "Sumit Kumar",
+                "company_name": "High Creation Interior"
+            },
+            {
+                "student_name": "Abash",
+                "company_name": "Internet Research Bureau"
+            },
+            {
+                "student_name": "Ankit Kumar",
+                "company_name": "Internet Research Bureau"
+            },
+            {
+                "student_name": "Ravi Raj",
+                "company_name": "Internet Research Bureau"
+            },
+            {
+                "student_name": "Vipul Kumar",
+                "company_name": "Internet Research Bureau"
+            },
+            {
+                "student_name": "Anchal Singh",
+                "company_name": "Paddlelift"
+            },
+            {
+                "student_name": "Divyanshi Mishra",
+                "company_name": "Paddlelift"
+            }
+        ]
+    },
+    "content_hash": "8b48df62f426ccf561c42e0ac552de69ab83a5481475899b1fa63540cff04a1e"
 }

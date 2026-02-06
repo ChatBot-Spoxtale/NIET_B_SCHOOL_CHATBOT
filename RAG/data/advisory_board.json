@@ -1,0 +1,32 @@
+{
+    "page_type": "advisory_board",
+    "source_url": "https://www.nietbschool.ac.in/advisory-board",
+    "last_scraped": "2026-02-05T12:38:31.787854+00:00",
+    "advisory_board": {
+        "title": "NIET Advisory Board",
+        "description": "The objective of the NIET Advisory Board is to strategize and define new grounds and ventures to bring about breakthrough changes in the field of practical outcome-based technical education in new areas. NIET acknowledges the vast knowledge, experience, and contribution of professionals towards technology and public service. We believe that their guidance and association with us will be of immense benefit in achieving newer path-breaking strides in technical education. NIET is a premier institute of northern India providing innovative, practical and revolutionary technical education through extensive association with various industries and their onsite participation.",
+        "members": [
+            {
+                "name": "Dr. O P Agarwal",
+                "designation": "Managing Director",
+                "image_url": "https://www.nietbschool.ac.in/assets/images/advisory board members/dr_op_agarwal.webp"
+            },
+            {
+                "name": "Dr. Neema Agarwal",
+                "designation": "Additional Managing Director",
+                "image_url": "https://www.nietbschool.ac.in/assets/images/advisory board members/dr_neema_agarwal.webp"
+            },
+            {
+                "name": "Dr. Vinod Mansiram Kapse",
+                "designation": "Director",
+                "image_url": "https://www.nietbschool.ac.in/assets/images/advisory board members/dr_vinod_m_kapse.webp"
+            },
+            {
+                "name": "Dr. Arun Kumar Singh",
+                "designation": "Director, NIET Business School",
+                "image_url": "https://www.nietbschool.ac.in/assets/images/advisory board members/dr_arun_kumar_singh.webp"
+            }
+        ]
+    },
+    "content_hash": "34e56f73111b1c06ea4831b786371ddc21d77e66b3c8001ae7edf6547c8c67b1"
+}

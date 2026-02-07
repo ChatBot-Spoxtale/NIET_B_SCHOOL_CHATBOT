@@ -1,14 +1,24 @@
+
 from fastapi import APIRouter, HTTPException
 from pydantic import BaseModel
 from datetime import datetime
-import csv
+from pymongo import MongoClient
 import os
 
 router = APIRouter()
 
 
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-CSV_FILE_PATH = os.path.join(BASE_DIR,  "callback_requests.csv")
+MONGO_URI = os.getenv("MONGO_URI")
+DB_NAME = "niet_b_chatbot"
+COLLECTION_NAME = "callback_requests_b_niet"
+
+if not MONGO_URI:
+    raise RuntimeError("MONGO_URI not set in environment variables")
+
+
+client = MongoClient(MONGO_URI)
+db = client[DB_NAME]
+collection = db[COLLECTION_NAME]
 
 
 class CallbackRequest(BaseModel):
@@ -16,23 +26,12 @@ class CallbackRequest(BaseModel):
     phone: str
 
 
-def save_to_csv(name: str, phone: str):
-    # Ensure directory exists
-    os.makedirs(os.path.dirname(CSV_FILE_PATH), exist_ok=True)
-
-    file_exists = os.path.isfile(CSV_FILE_PATH)
-
-    with open(CSV_FILE_PATH, mode="a", newline="", encoding="utf-8") as file:
-        writer = csv.writer(file)
-
-        if not file_exists:
-            writer.writerow(["Name", "Phone", "Timestamp"])
-
-        writer.writerow([
-            name,
-            phone,
-            datetime.utcnow().isoformat()
-        ])
+def save_to_db(name: str, phone: str):
+    collection.insert_one({
+        "name": name.strip(),
+        "phone": phone.strip(),
+        "timestamp": datetime.utcnow()
+    })
 
 
 @router.post("/save-callback")
@@ -40,15 +39,24 @@ def save_callback(data: CallbackRequest):
     if not data.name.strip() or not data.phone.strip():
         raise HTTPException(status_code=400, detail="Invalid data")
 
-    save_to_csv(data.name, data.phone)
+    save_to_db(data.name, data.phone)
+
     return {"message": "Callback request saved successfully"}
 
-@router.get("/admin/download-csv")
-def download_csv():
-    if not os.path.exists(CSV_FILE_PATH):
-        raise HTTPException(status_code=404, detail="CSV file not found")
+@router.get("/admin/callbacks")
+def get_callbacks():
+    docs = collection.find().sort("timestamp", -1)
+
+    callbacks = [
+        {
+            "name": d["name"],
+            "phone": d["phone"],
+            "timestamp": d["timestamp"].isoformat()
+        }
+        for d in docs
+    ]
 
     return {
-        "file_path": CSV_FILE_PATH,
-        "message": "CSV file is available on the server"
+        "count": len(callbacks),
+        "data": callbacks
     }

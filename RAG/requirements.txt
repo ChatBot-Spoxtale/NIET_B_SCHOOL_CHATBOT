@@ -5,3 +5,4 @@ dotenv
 openai
 fastapi
 uvicorn 
+pymongo
